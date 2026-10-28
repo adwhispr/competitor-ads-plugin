@@ -43,5 +43,7 @@
     "dtc",
     "mcp",
     "connector"
-  ]
+  ],
+  "icon": "./icon.svg",
+  "privacyPolicyUrl": "https://adwhispr.com/privacy"
 }
