@@ -46,10 +46,5 @@
   ],
   "icon": "./icon.svg",
   "privacyPolicyUrl": "https://adwhispr.com/privacy",
-  "mcpServers": {
-    "adwhispr-competitor-ads": {
-      "type": "http",
-      "url": "https://adwhispr.com/api/adspy/mcp"
-    }
-  }
+  "mcpServers": "./.mcp.json"
 }
