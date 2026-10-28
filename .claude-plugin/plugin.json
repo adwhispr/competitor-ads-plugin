@@ -45,5 +45,11 @@
     "connector"
   ],
   "icon": "./icon.svg",
-  "privacyPolicyUrl": "https://adwhispr.com/privacy"
+  "privacyPolicyUrl": "https://adwhispr.com/privacy",
+  "mcpServers": {
+    "adwhispr-competitor-ads": {
+      "type": "http",
+      "url": "https://adwhispr.com/api/adspy/mcp"
+    }
+  }
 }
