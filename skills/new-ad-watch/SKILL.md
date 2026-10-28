@@ -18,7 +18,7 @@ See what a competitor just launched: the freshest read on where a rival is headi
 
 ## How it runs
 
-1. Resolve the brand (`marketing_intelligence` what "find_brand"); `add_brand` if untracked (pass the pageId from the competitors lookup; ingestion takes a minute or two).
+1. Resolve the brand (`marketing_intelligence` what "find_brand"); `add_brand` if untracked (include the pageId from the competitors lookup; ingestion takes a minute or two).
 2. `competitor_ads` source "meta", brandId, sortBy newest to surface the latest creative. Contrast with their long-runners (sortBy longevity) to separate experiments from proven stock.
 3. Read what is new: fresh angles, format shifts, new offers. `marketing_intelligence` what "brand_stats" shows whether the mix is changing.
 4. On request, repeat for 2 or 3 rivals and summarize the moves in one short read.

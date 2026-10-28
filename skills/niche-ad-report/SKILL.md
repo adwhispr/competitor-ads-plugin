@@ -18,7 +18,7 @@ The advertising map of a category: verified advertisers, their volume, and their
 
 ## How it runs
 
-1. Anchor the niche: the user's saved brand (`marketing_intelligence` what "my_brand", or `save_my_brand`) or an explicitly stated niche passed as niche ("meditation apps in Brazil"). For a location-bound business the lookup searches the ads actually running in that area.
+1. Anchor the niche: the user's saved brand (`marketing_intelligence` what "my_brand", or `save_my_brand`) or an explicitly stated niche given as niche ("meditation apps in Brazil"). For a location-bound business the lookup searches the ads actually running in that area.
 2. `marketing_intelligence` what "competitors" (limit up to 8). Keep its three buckets separate: lead with VERIFIED advertisers ranked by active-ad count, mention "checked, not currently advertising" honestly, never present unverified names as advertisers.
 3. For the top 2 or 3 verified brands: `competitor_ads` source "meta" (sortBy longevity) for proven winners and `marketing_intelligence` what "brand_stats" for hook and format mixes. Offer `add_brand` (with the pageId returned) for untracked names worth tracking, one per call, only on the user's yes.
 4. Optional depth: `competitor_ads` source "tiktok_ads" for the niche's TikTok side, `marketing_intelligence` what "keywords" for the search-demand picture.

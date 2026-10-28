@@ -18,7 +18,7 @@ For a location-bound business, the competitors that matter are the ones advertis
 
 ## How it runs
 
-1. `marketing_intelligence` what "my_brand"; if nothing is saved, ask for the website or one line with the service and the place, and `save_my_brand` it. If the user states the area in the request, pass it in niche ("dentists in Austin", "yoga studios in Lisbon").
+1. `marketing_intelligence` what "my_brand"; if nothing is saved, ask for the website or one line with the service and the place, and `save_my_brand` it. If the user states the area in the request, put it in niche ("dentists in Austin", "yoga studios in Lisbon").
 2. `marketing_intelligence` what "competitors". Lead with the VERIFIED advertisers in that area ranked by active-ad count; keep the other two buckets separate and honest.
 3. For the top 2 or 3: `competitor_ads` source "meta", sortBy longevity, to see the offers and hooks that have survived months of local spend (free consultation, first-visit discount, before-and-after, reviews). Offer `add_brand` (with the pageId returned) for an untracked local rival, one per call.
 4. Deliver: who advertises locally, what offers they lead with, how long their best ads have run, and the angle nobody in the area is using.
