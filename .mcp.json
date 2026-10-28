@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adwhispr-competitor-ads": {
+      "type": "http",
+      "url": "https://adwhispr.com/api/adspy/mcp"
+    }
+  }
+}
