@@ -32,4 +32,6 @@ Ad libraries do not publish click rates, conversions or return on ad spend, so t
 
 Research only: it never connects to, launches or changes anything in an ad account. To launch and manage your own campaigns from chat, see the [AdWhispr Ads Manager](https://github.com/adwhispr/ads-manager-plugin) plugin.
 
-Support: basil@adwhispr.com. Docs: https://adwhispr.com/docs.
+Documentation: https://adwhispr.com/docs
+
+Support: https://adwhispr.com/support or basil@adwhispr.com
